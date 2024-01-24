@@ -9,8 +9,7 @@ int main() {
 
     std::string path;
     Image Image1, Image2, result;
-    char *str;
-
+   
     std::cout << "Enter the path for image1 : ";
     std::cin >> path; 
     // path = "images/image1.jpeg";
@@ -18,7 +17,7 @@ int main() {
 
     std::cout << "Enter the path for image2 : ";
     std::cin >> path;
-    path = "images/image2.jpeg";
+    // path = "images/image2.jpeg";
     Image2.setImg(path);
    
     // perform alpha blending
